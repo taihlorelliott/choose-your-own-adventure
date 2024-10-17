@@ -96,7 +96,8 @@ const investigate = prompt("Should you investigate?")
             console.log("As you proceed down the hallway, you feel your cat, Kevin, brush past your leg and you think he goes into your bedroom. You hear a loud noise coming from the kitchen.")
             const kitchen = prompt("Do you enter the kithcen?") 
             if(kitchen.toLowerCase() === 'yes'){
-                console.log("You enter the dark kitchen and see a figure in the glow of the fridge light. He turns around. Do you run?")
+                console.log("You enter the dark kitchen and see a figure in the glow of the fridge light. He turns around.")
+                const fridge = prompt("Do you run?")
                 if(fridge.toLowerCase() === 'yes'){
                     console.log("You run down the hallway and out the back door. You made it out. Safe and sound. May the odds be in Kevins favor.")
                 }
