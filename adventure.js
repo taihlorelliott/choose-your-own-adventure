@@ -8,9 +8,9 @@ const investigate = prompt("Should you investigate?")
         console.log("You decide to investigate the noise and open your bedroom door to a dark hallway")
         const light = prompt("Do you turn on the light?")
         if(light.toLowerCase() === 'yes'){
-            console.log("You turn on the light and and your cat, Kevin, runs past you and into the bathroom, covered in blood.")
+            console.log("You turn on the light and your cat, Kevin, runs past you and into the bathroom, covered in blood.")
             const hallway = prompt("Do you proceed down the hallway?")
-            if(hallway.toLowerCase() === 'yes'){
+            if(hallway.toLowerCase() === 'yes'){6
                 console.log("You hear a loud bang from the kitchen and foot steps coming toward you. You live alone.")
                 const flee = prompt("Do you run?")
                 if(flee.toLowerCase() === 'yes'){
